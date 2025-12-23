@@ -23,7 +23,7 @@ os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 embeddings = download_hugging_face_embeddings()
 
 
-index_name = "medical-chatbot" #change it if you wnat as per your requirement to be
+index_name = "medical-chaatbot" #change it if you wnat as per your requirement to be
 
 doc_search = PineconeVectorStore.from_existing_index(
     index_name=index_name,
