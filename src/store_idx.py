@@ -24,7 +24,7 @@ embeddings = download_hugging_face_embeddings()
 pinecone_api_key = PINECONE_API_KEY
 pc = Pinecone(api_key=pinecone_api_key)
 
-index_name = "medical-chaatbot" #change it if you wnat as per your requirement to be
+index_name = "medical-chatbot" #change it if you wnat as per your requirement to be
 
 #create a idex if not be present in vector db
 
