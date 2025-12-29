@@ -2,8 +2,10 @@ FROM python:3.11.2-slim-buster
 
 WORKDIR /app
 
-COPY . /app
+COPY requirements.txt .
+RUN pip install --upgrade pip setuptools wheel \
+    && pip install --no-cache-dir -r requirements.txt
 
-RUN pip install -r requirements.txt
+COPY . .
 
-CMD ["python3","app.py"]
+CMD ["python3", "app.py"]
