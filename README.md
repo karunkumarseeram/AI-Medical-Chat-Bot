@@ -78,6 +78,8 @@ AWS-CICD-Deployment-with-Github-Actions
 
 - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/medicalbot
 
+654582602441.dkr.ecr.us-east-1.amazonaws.com/medi-bot
+
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
 #optinal
