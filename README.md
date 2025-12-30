@@ -38,7 +38,7 @@ Now,
 open up localhost: 8080
 
 Techstack Used:
-Python
+Python 
 LangChain
 Flask
 GPT
